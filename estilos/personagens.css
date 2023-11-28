@@ -1,0 +1,185 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&family=Passion+One&display=swap');
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+li {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+li:hover .dropdown-content {
+  display: block;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+}
+
+header {
+  min-height: 150px;
+  background-color: rgba(0, 0, 0, 0.373);
+}
+
+header > h1 {
+  font-family: 'MedievalSharp', cursive;
+  color: red;
+  text-align: center;
+  font-size: 4.5em;
+  padding: 10px;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+  text-align: left;
+  padding: 0px 10px;
+  margin-left: 10px;
+  font-size: 1.2em;
+  font-weight: bold;
+  transition-duration: .5s;
+}
+
+header a:hover {
+  background-color: rgba(211, 211, 211, 0.386);
+  text-decoration: underline;
+  font-weight: bold;
+  border-radius: 3px;
+  padding: 1px;
+}
+
+main {
+  margin: auto;
+  max-width: 1200px;
+  text-align: justify;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+main > h2 {
+  color: black;
+}
+
+main > p {
+  font-size: 1.2em;
+  color: black;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-indent: 25px;
+}
+
+body {
+  background: black url(../imagens/bando-falcao.jpg) center center no-repeat fixed;
+  background-size: cover;
+}
+
+h2 > p {
+  font-family: 'MedievalSharp', cursive;
+  color: red;
+  text-align: center;
+  font-size: 2em;
+  padding: 10px;
+}
+
+article {
+  background-color: rgba(0, 0, 0, 0.795);
+  margin: 0px;
+  padding: 0px;
+}
+
+div.imagem {
+  display: inline-block;
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  text-align: center;
+  margin: 20px 71px;
+}
+
+div#i1 {
+  background-image: url(../imagens/guts.jpg);
+  background-size: cover;
+  background-position: center center;
+  width: 150px;
+}
+
+
+div#i2 {
+  background-image: url(../imagens/griffith.jpg);
+  background-size: cover;
+  background-position: center center;
+  width: 150px;
+}
+
+div#i3 {
+  background-image: url(../imagens/casca.webp);
+  background-size: cover;
+  background-position: center center;
+  width: 150px;
+}
+
+div#i4 {
+  background-image: url(../imagens/corkus.webp);
+  background-size: cover;
+  background-position: center center;
+  width: 150px;
+}
+
+div#i5 {
+  background-image: url(../imagens/Rickert.webp);
+  background-size: cover;
+  background-position: center center;
+  width: 150px;
+}
+
+div#i6 {
+  background-image: url(../imagens/pippin.webp);
+  background-size: cover;
+  background-position: center center;
+  width: 150px;
+}
+
+div#i7 {
+  background-image: url(../imagens/judeau.webp);
+  background-size: cover;
+  background-position: center center;
+  width: 150px;
+}
+
+div#i8 {
+  background-image: url(../imagens/gaston.webp);
+  background-size: cover;
+  background-position: center center;
+  width: 150px;
+}
+
+
+footer {
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+
+img {
+  padding: 10px 20px;
+  width: 90%;
+  height: auto;
+}
+
+@media screen and (max-width: 600px) {
+  div#imagem {
+    max-width: 100%;
+  }
+}

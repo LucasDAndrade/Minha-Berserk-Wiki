@@ -7,6 +7,10 @@
   margin: 0px;
 }
 
+li {
+  display: inline-block;
+}
+
 .dropdown-content {
   display: none;
   position: absolute;
@@ -16,6 +20,11 @@
 
 li:hover .dropdown-content {
   display: block;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
 }
 
 header {
@@ -47,7 +56,7 @@ header a:hover {
   text-decoration: underline;
   font-weight: bold;
   border-radius: 3px;
-  padding: 3px;
+  padding: 1px;
 }
 
 main {
@@ -72,7 +81,7 @@ main > p {
 }
 
 body {
-  background: black url(imagens/eclipse.jpg) center center no-repeat fixed;
+  background: black url(../imagens/eclipse.jpg) center center no-repeat fixed;
   background-size: cover;
 }
 
