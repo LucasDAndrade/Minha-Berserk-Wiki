@@ -97,6 +97,27 @@ article {
   padding: 0px;
 }
 
+footer {
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+
+img {
+  padding: 10px 20px;
+  width: 90%;
+  height: auto;
+}
+
+@media screen and (max-width: 600px) {
+  div#imagem {
+    max-width: 100%;
+  }
+}
+
+
+
+
 div.imagem {
   display: inline-block;
   border: 2px solid black;
@@ -165,21 +186,59 @@ div#i8 {
   width: 150px;
 }
 
-
-footer {
-  text-align: center;
-  color: white;
-  background-color: black;
-}
-
-img {
-  padding: 10px 20px;
-  width: 90%;
-  height: auto;
-}
-
-@media screen and (max-width: 600px) {
-  div#imagem {
-    max-width: 100%;
+  div#i9 {
+    background-image: url(../imagens/zodd.webp);
+    background-size: cover;
+    background-position: center center;
+    width: 150px;
   }
+  
+  
+  div#i10 {
+    background-image: url(../imagens/wyald.webp);
+    background-size: cover;
+    background-position: center center;
+    width: 150px;
+  }
+  
+  div#i11 {
+    background-image: url(../imagens/rosine.avif);
+    background-size: cover;
+    background-position: center center;
+    width: 150px;
+  }
+  
+  div#i12 {
+    background-image: url(../imagens/raksas.webp);
+    background-size: cover;
+    background-position: center center;
+    width: 150px;
+  }
+  
+  div#i13 {
+    background-image: url(../imagens/grunbeld.webp);
+    background-size: cover;
+    background-position: center top;
+    width: 150px;
+  }
+  
+  div#i14 {
+    background-image: url(../imagens/ganishka.webp);
+    background-size: cover;
+    background-position: center center;
+    width: 150px;
+  }
+  
+  div#i15 {
+    background-image: url(../imagens/locus.jpg);
+    background-size: cover;
+    background-position: center top;
+    width: 150px;
+  }
+  
+  div#i16 {
+    background-image: url(../imagens/irvine.jpg);
+    background-size: cover;
+    background-position: center center;
+    width: 150px;
 }
