@@ -16,6 +16,14 @@ li {
   position: absolute;
   background-color: #333;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  width: 150px;
+}
+
+.dropdown-content a {
+  display: block;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
 }
 
 li:hover .dropdown-content {
@@ -45,7 +53,6 @@ header a {
   color: white;
   text-align: left;
   padding: 0px 10px;
-  margin-left: 10px;
   font-size: 1.2em;
   font-weight: bold;
   transition-duration: .5s;
@@ -57,6 +64,7 @@ header a:hover {
   font-weight: bold;
   border-radius: 3px;
   padding: 1px;
+  box-sizing: border-box;
 }
 
 main {
@@ -91,6 +99,7 @@ div#imagem {
   background-color: rgba(0, 0, 0, 0.795);
 }
 
+
 div#citacao {
   background-color: rgba(0, 0, 0, 0.795);
   padding: 10px;
@@ -120,6 +129,16 @@ img {
   padding: 10px 20px;
   width: 90%;
   height: auto;
+}
+
+img#god-hand {
+  max-width: 800px;
+  height: 450px;
+}
+
+img#ideia-mal {
+  max-width: 500px;
+  height: 600px;
 }
 
 @media screen and (max-width: 600px) {

@@ -16,6 +16,14 @@ li {
   position: absolute;
   background-color: #333;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  width: 150px;
+}
+
+.dropdown-content a {
+  display: block;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
 }
 
 li:hover .dropdown-content {
@@ -45,7 +53,6 @@ header a {
   color: white;
   text-align: left;
   padding: 0px 10px;
-  margin-left: 10px;
   font-size: 1.2em;
   font-weight: bold;
   transition-duration: .5s;
@@ -57,6 +64,7 @@ header a:hover {
   font-weight: bold;
   border-radius: 3px;
   padding: 1px;
+  box-sizing: border-box;
 }
 
 main {
@@ -238,6 +246,90 @@ div#i8 {
   
   div#i16 {
     background-image: url(../imagens/irvine.jpg);
+    background-size: cover;
+    background-position: center center;
+    width: 150px;
+}
+
+  div#i17 {
+    background-image: url(../imagens/puck.webp);
+    background-size: cover;
+    background-position: center center;
+    width: 150px;
+}
+
+  div#i18 {
+    background-image: url(../imagens/ishidoro.webp);
+    background-size: cover;
+    background-position: center center;
+    width: 150px;
+}
+
+  div#i19 {
+    background-image: url(../imagens/skull-knight.jpg);
+    background-size: cover;
+    background-position: center top;
+    width: 150px;
+}
+
+  div#i20 {
+    background-image: url(../imagens/schierke.webp);
+    background-size: cover;
+    background-position: center center;
+    width: 150px;
+}
+
+  div#i21 {
+    background-image: url(../imagens/midland.webp);
+    background-size: cover;
+    background-position: center top;
+    width: 150px;
+}
+
+  div#i22 {
+    background-image: url(../imagens/tudor.webp);
+    background-size: cover;
+    background-position: center center;
+    width: 150px;
+}
+
+  div#i23 {
+    background-image: url(../imagens/kushan.webp);
+    background-size: cover;
+    background-position: center right;
+    width: 150px;
+}
+
+  div#i24 {
+    background-image: url(../imagens/koka.webp);
+    background-size: cover;
+    background-position: center center;
+    width: 150px;
+}
+
+  div#i25 {
+    background-image: url(../imagens/bando-falcao-a.webp);
+    background-size: cover;
+    background-position: center top;
+    width: 150px;
+}
+
+  div#i26 {
+    background-image: url(../imagens/novo-bando-falcao.webp);
+    background-size: cover;
+    background-position: center center;
+    width: 150px;
+}
+
+  div#i27 {
+    background-image: url(../imagens/cav-cachorros.webp);
+    background-size: cover;
+    background-position: center right;
+    width: 150px;
+}
+
+  div#i28 {
+    background-image: url(../imagens/cav-dragao.webp);
     background-size: cover;
     background-position: center center;
     width: 150px;
