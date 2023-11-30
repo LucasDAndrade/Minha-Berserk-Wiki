@@ -106,7 +106,6 @@ div#imagem {
   background-color: rgba(0, 0, 0, 0.795);
 }
 
-
 div#citacao {
   background-color: rgba(0, 0, 0, 0.795);
   padding: 10px;
@@ -212,6 +211,54 @@ div.p > h2 {
     font-size: 0.6em;
     max-width: 100%;
   }
+}
+
+/* -------------------- style das imagens -------------------- */
+
+div.imagemf {
+  display: inline-block;
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 180px;
+  height: 300px;
+  overflow: hidden;
+  text-align: center;
+  padding: 33px;
+  margin-top: 20px;
+  margin-left: 100px;
+}
+
+
+div#i29 {
+  background-image: url(../imagens/filme-1.png);
+  background-size: cover;
+  background-position: center center;
+  width: 200px;
+  height: 255px;
+  margin-bottom: 10px;
+}
+
+div#i30 {
+  background-image: url(../imagens/filme-2.png);
+  background-size: cover;
+  background-position: center center;
+  width: 200px;
+  height: 255px;
+  margin-bottom: 10px;
+}
+
+div#i31 {
+  background-image: url(../imagens/filme-3.jpg);
+  background-size: cover;
+  background-position: center center;
+  width: 200px;
+  height: 255px;
+  margin-bottom: 10px;
+}
+
+article {
+  background-color: rgba(0, 0, 0, 0.795);
+  padding: 10px;
 }
 
 
