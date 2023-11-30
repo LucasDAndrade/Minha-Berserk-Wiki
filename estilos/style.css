@@ -7,6 +7,12 @@
   margin: 0px;
 }
 
+.red-text {
+  color: rgb(233, 7, 7);
+  font-weight: bold;
+  text-shadow: 1px 1px 1px black;
+}
+
 li {
   display: inline-block;
 }
@@ -44,6 +50,7 @@ header > h1 {
   font-family: 'MedievalSharp', cursive;
   color: red;
   text-align: center;
+  text-shadow: 14px 6px 6px black;
   font-size: 4.5em;
   padding: 10px;
 }
@@ -143,6 +150,66 @@ img#ideia-mal {
 
 @media screen and (max-width: 600px) {
   div#imagem {
+    max-width: 100%;
+  }
+}
+
+
+/* -------------------- style de pessoa -------------------- */
+
+.pessoa {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pessoa img {
+  max-width: 100%;
+  margin-right: 10px;
+}
+
+.pessoa p {
+  max-width: 400px;
+}
+
+img.pessoa {
+  width: 300px;
+  height: auto;
+  padding: 20px;
+  margin-right: 0px;
+}
+
+div.pessoa {
+  display: flex;
+  align-items: flex-end;
+  background-color: rgba(151, 150, 150, 0.43);
+}
+
+div.pessoa > p {
+  font-size: 1.2em;
+  align-self: flex-end;
+  flex: 1;
+  color: black;  
+  margin-top: 100px;
+  margin-bottom: 20px;
+  font-weight: bolder;
+}
+
+div.p > p {
+    font-size: 1.2em;
+    color: black;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-indent: 25px;
+}
+
+div.p > h2 {
+  text-align: center;
+  padding: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  div.pessoa > p {
+    font-size: 0.6em;
     max-width: 100%;
   }
 }
