@@ -124,6 +124,10 @@ img {
   }
 }
 
+h2 > a {
+  color: transparent;
+}
+
 
 
 
@@ -281,7 +285,7 @@ div#i8 {
 }
 
   div#i21 {
-    background-image: url(../imagens/midland.webp);
+    background-image: url(../imagens/middd.webp);
     background-size: cover;
     background-position: center top;
     width: 150px;
@@ -330,8 +334,8 @@ div#i8 {
 }
 
   div#i28 {
-    background-image: url(../imagens/cav-dragao.webp);
+    background-image: url(../imagens/cav-rino.webp);
     background-size: cover;
-    background-position: center center;
+    background-position: center right;
     width: 150px;
 }
