@@ -112,6 +112,16 @@ div.mapa {
   padding: 0px;
 }
 
+div.guerra {
+  background-color: blue;
+  margin: 0px;
+  padding: 0px;
+}
+
+div.guerra > img {
+  height: 600px;
+}
+
 div.mapa > p {
   font-family: 'MedievalSharp', cursive;
   font-size: 2em;
@@ -124,6 +134,7 @@ footer {
   text-align: center;
   color: white;
   background-color: black;
+
 }
 
 img {
@@ -135,6 +146,27 @@ img {
 @media screen and (max-width: 600px) {
   div#imagem {
     max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.mapa > img{
+    margin-left: 4px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  div.mapa > img{
+    margin-left: 38px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.guerra > img{
+    width: 400px;
+    height: 300px;
+    margin: 0px;
+    translate: calc(-4%);
   }
 }
 
