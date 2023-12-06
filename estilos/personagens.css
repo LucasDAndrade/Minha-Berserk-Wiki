@@ -106,6 +106,20 @@ article {
   padding: 0px;
 }
 
+div.mapa {
+  background-color: rgba(0, 0, 0, 0);
+  margin: 0px;
+  padding: 0px;
+}
+
+div.mapa > p {
+  font-family: 'MedievalSharp', cursive;
+  font-size: 2em;
+  font-weight: 5700;
+  color: red;
+  text-align: center;
+}
+
 footer {
   text-align: center;
   color: white;
@@ -124,12 +138,42 @@ img {
   }
 }
 
-h2 > a {
+abbr {
   color: transparent;
 }
 
+abbr > a {
+  color: transparent;
+}
 
+/* 
 
+abbr[title] {
+  position: relative;
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+abbr[title]::after {
+  content: attr(title);
+  background-color: black;
+  color: red;
+  position: absolute;
+  padding: 5px;   
+  border-radius: 5px;               --> popup personalizado, fora de uso devido ao trabalho que daria para configurar tudo,
+  top: 100%;                            estava dando muitos erros. guardando aqui a titulo de curiosidade.
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  z-index: 1;
+  display: none;
+}
+
+abbr[title]:hover::after {
+  display: block;
+}
+
+*/
 
 div.imagem {
   display: inline-block;
